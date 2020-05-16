@@ -18,6 +18,7 @@ body{
         margin: 60px 0;
     }
 }
+
 .searchForm{
     display: flex;
     justify-content: space-between;
