@@ -92,7 +92,20 @@ body{
     /* margin: 0 10px; */
     position: relative;
     cursor: pointer;
+
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.1),
+    -20px -20px 30px rgba(255,255,255,.1);
+    border-radius: 10px;
+    transition: all 0.2s;
 }
+
+.siteList .site:hover{
+    box-shadow: 0 0 0 rgba(0,0,0,0.2),
+    0 0 0 rgba(255,255,255,1),
+    inset 20px 20px 30px rgba(0,0,0,0.1),
+    inset -20px -20px 30px rgba(255,255,255,1);
+}
+
 .siteList .site > .logo{
     width: 64px;
     height: 64px;
@@ -131,7 +144,20 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.1),
+    -20px -20px 30px rgba(255,255,255,.1);
+    border-radius: 10px;
+    transition: all 0.2s;
 }
+
+.siteList .addButton:hover{
+    box-shadow: 0 0 0 rgba(0,0,0,0.2),
+    0 0 0 rgba(255,255,255,1),
+    inset 20px 20px 30px rgba(0,0,0,0.1),
+    inset -20px -20px 30px rgba(255,255,255,1);
+}
+
 .siteList .addButton .text{
     font-size: 14px;
     margin-top: 8px;
